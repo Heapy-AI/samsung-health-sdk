@@ -179,6 +179,13 @@ Android 시스템의 `개발자 옵션`과는 별개의 설정입니다.
 
 개발자 모드가 활성화되지 않은 상태에서 앱을 실행하면 `AuthorizationException`과 같은 접근 오류가 발생할 수 있습니다.
 
+<table>
+  <tr>
+    <td align="center"><img src="docs/image/samsung_health_developer_mode.jpeg" width="300"></td>
+    <td align="center"><img src="docs/image/Enabling_developer_mode.jpeg" width="300"></td>
+  </tr>
+</table>
+
 ---
 
 ## 6. 빌드 및 실행
@@ -280,6 +287,12 @@ heart_rate   → permission not granted
 
 권한이 없는 데이터는 `_export_summary.json`에 기록됩니다.
 
+<table>
+  <tr>
+    <td align="center"><img src="docs/image/Data_extraction.jpeg" width="300"></td>
+    <td align="center"><img src="docs/image/Authority.jpeg" width="300"></td>
+  </tr>
+</table>
 ---
 
 ## 8. 데이터 확인
@@ -443,19 +456,10 @@ adb exec-out run-as com.example.shealthpoc cat files/data/steps.json > data\step
 
 ### 기본 구조
 
-```json
-{
-  "dataType": "sleep",
-  "retrievedAt": "2026-08-19T00:42:36+09:00",
-  "sdkCall": "readData(DataTypes.SLEEP.readDataRequestBuilder.setLocalTimeFilter(LocalTimeFilter.of(start, end)).setOrdering(Ordering.ASC).build())",
-  "requestedRange": {
-    "startLocalDateTime": "2026-07-21T00:00:00",
-    "endLocalDateTime": "2026-08-20T00:00:00"
-  },
-  "count": 19,
-  "records": []
-}
-```
+| data | sleep score | sleep step |
+| :--- | :---: | :---: |
+| {<br>&nbsp;&nbsp;"sleepScore": 64,<br>&nbsp;&nbsp;"sessions": [<br>&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"startTime": "2026-08-15T20:09:00Z",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"endTime": "2026-08-16T01:00:00Z",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"duration": "PT4H51M",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"stages": [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"startTime": "2026-08-15T20:09:00Z",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"endTime": "2026-08-15T20:28:00Z",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"stage": "LIGHT"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"startTime": "2026-08-15T20:28:00Z",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"endTime": "2026-08-15T20:33:00Z",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"stage": "DEEP"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"startTime": "2026-08-15T20:33:00Z",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"endTime": "2026-08-15T20:36:00Z",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"stage": "AWAKE"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>} | <img src="docs/image/sleep_score.jpeg" width="300"> | <img src="docs/image/sleep_steps.jpeg" width="300"> |
+
 
 각 파일의 `records`에 실제 Samsung Health 데이터가 들어갑니다.
 
