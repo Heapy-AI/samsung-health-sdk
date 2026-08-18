@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SHealth Data PoC</string>
+
+    <string name="section_data_types">조회할 데이터</string>
+    <string name="section_days">조회 기간 (오늘 포함, 일)</string>
+    <string name="days_hint">30</string>
+
+    <string name="action_run">조회 및 저장</string>
+    <string name="action_select_all">전체</string>
+    <string name="action_select_none">해제</string>
+
+    <string name="error_no_type">데이터를 하나 이상 선택하세요.</string>
+    <string name="error_days_range">기간은 1 ~ 365 사이의 숫자로 입력하세요.</string>
+</resources>

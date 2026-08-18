@@ -1,0 +1,3463 @@
+{
+  "dataType": "sleep",
+  "retrievedAt": "2026-08-19T01:08:54.61229+09:00",
+  "sdkCall": "readData(DataTypes.SleepType.readDataRequestBuilder.setLocalTimeFilter(...).setOrdering(Ordering.ASC))",
+  "requestedRange": {
+    "startLocalDateTime": "2026-07-21T00:00:00",
+    "endLocalDateTime": "2026-08-20T00:00:00"
+  },
+  "count": 19,
+  "records": [
+    {
+      "uid": "939115af-c984-49e6-87b7-cd76bffab24d",
+      "startTime": "2026-07-20T16:10:00Z",
+      "endTime": "2026-07-20T23:50:00Z",
+      "startLocalDateTime": "2026-07-21T01:10:00",
+      "endLocalDateTime": "2026-07-21T08:50:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-07-21T11:07:14.156Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "4XgosjMJcS"
+      },
+      "duration": "PT7H40M",
+      "sleepScore": null,
+      "sessions": [
+        {
+          "startTime": "2026-07-20T16:10:00Z",
+          "endTime": "2026-07-20T23:50:00Z",
+          "duration": "PT7H40M",
+          "stages": []
+        }
+      ]
+    },
+    {
+      "uid": "dfa18ddd-d416-e179-e0f2-67d8a4d5fc68",
+      "startTime": "2026-07-21T18:52:00Z",
+      "endTime": "2026-07-21T22:20:00Z",
+      "startLocalDateTime": "2026-07-22T03:52:00",
+      "endLocalDateTime": "2026-07-22T07:20:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-07-21T22:23:55.913Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT3H28M",
+      "sleepScore": 66,
+      "sessions": [
+        {
+          "startTime": "2026-07-21T18:52:00Z",
+          "endTime": "2026-07-21T22:20:00Z",
+          "duration": "PT3H28M",
+          "stages": [
+            {
+              "startTime": "2026-07-21T18:52:00Z",
+              "endTime": "2026-07-21T19:09:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T19:09:00Z",
+              "endTime": "2026-07-21T19:27:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-21T19:27:00Z",
+              "endTime": "2026-07-21T19:31:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T19:31:00Z",
+              "endTime": "2026-07-21T19:32:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-21T19:32:00Z",
+              "endTime": "2026-07-21T19:36:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T19:36:00Z",
+              "endTime": "2026-07-21T19:37:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-21T19:37:00Z",
+              "endTime": "2026-07-21T19:44:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T19:44:00Z",
+              "endTime": "2026-07-21T19:46:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-21T19:46:00Z",
+              "endTime": "2026-07-21T20:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T20:25:00Z",
+              "endTime": "2026-07-21T20:40:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-21T20:40:00Z",
+              "endTime": "2026-07-21T20:41:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T20:41:00Z",
+              "endTime": "2026-07-21T20:43:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-21T20:43:00Z",
+              "endTime": "2026-07-21T21:11:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T21:11:00Z",
+              "endTime": "2026-07-21T21:14:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-21T21:14:00Z",
+              "endTime": "2026-07-21T21:15:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-21T21:15:00Z",
+              "endTime": "2026-07-21T21:56:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-21T21:56:00Z",
+              "endTime": "2026-07-21T22:01:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T22:01:00Z",
+              "endTime": "2026-07-21T22:02:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-21T22:02:00Z",
+              "endTime": "2026-07-21T22:18:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-21T22:18:00Z",
+              "endTime": "2026-07-21T22:20:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "4b901337-e463-7691-4094-2e7dd9bdaf0d",
+      "startTime": "2026-07-22T16:34:00Z",
+      "endTime": "2026-07-22T23:52:00Z",
+      "startLocalDateTime": "2026-07-23T01:34:00",
+      "endLocalDateTime": "2026-07-23T08:52:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-07-22T23:52:35.366Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT7H18M",
+      "sleepScore": 81,
+      "sessions": [
+        {
+          "startTime": "2026-07-22T16:34:00Z",
+          "endTime": "2026-07-22T23:52:00Z",
+          "duration": "PT7H18M",
+          "stages": [
+            {
+              "startTime": "2026-07-22T16:34:00Z",
+              "endTime": "2026-07-22T16:45:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T16:45:00Z",
+              "endTime": "2026-07-22T17:08:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-22T17:08:00Z",
+              "endTime": "2026-07-22T17:10:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T17:10:00Z",
+              "endTime": "2026-07-22T17:28:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T17:28:00Z",
+              "endTime": "2026-07-22T17:29:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T17:29:00Z",
+              "endTime": "2026-07-22T17:30:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T17:30:00Z",
+              "endTime": "2026-07-22T17:38:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T17:38:00Z",
+              "endTime": "2026-07-22T17:55:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T17:55:00Z",
+              "endTime": "2026-07-22T17:58:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T17:58:00Z",
+              "endTime": "2026-07-22T18:02:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T18:02:00Z",
+              "endTime": "2026-07-22T18:03:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T18:03:00Z",
+              "endTime": "2026-07-22T18:12:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T18:12:00Z",
+              "endTime": "2026-07-22T18:16:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T18:16:00Z",
+              "endTime": "2026-07-22T18:23:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T18:23:00Z",
+              "endTime": "2026-07-22T18:27:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T18:27:00Z",
+              "endTime": "2026-07-22T18:46:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T18:46:00Z",
+              "endTime": "2026-07-22T18:47:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T18:47:00Z",
+              "endTime": "2026-07-22T19:00:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T19:00:00Z",
+              "endTime": "2026-07-22T19:08:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-22T19:08:00Z",
+              "endTime": "2026-07-22T19:09:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T19:09:00Z",
+              "endTime": "2026-07-22T19:26:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T19:26:00Z",
+              "endTime": "2026-07-22T19:27:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T19:27:00Z",
+              "endTime": "2026-07-22T19:48:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T19:48:00Z",
+              "endTime": "2026-07-22T19:50:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T19:50:00Z",
+              "endTime": "2026-07-22T19:52:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T19:52:00Z",
+              "endTime": "2026-07-22T19:53:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T19:53:00Z",
+              "endTime": "2026-07-22T19:58:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T19:58:00Z",
+              "endTime": "2026-07-22T19:59:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T19:59:00Z",
+              "endTime": "2026-07-22T20:19:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T20:19:00Z",
+              "endTime": "2026-07-22T20:20:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-22T20:20:00Z",
+              "endTime": "2026-07-22T20:22:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T20:22:00Z",
+              "endTime": "2026-07-22T20:23:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T20:23:00Z",
+              "endTime": "2026-07-22T20:56:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T20:56:00Z",
+              "endTime": "2026-07-22T21:43:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-22T21:43:00Z",
+              "endTime": "2026-07-22T21:44:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T21:44:00Z",
+              "endTime": "2026-07-22T22:00:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T22:00:00Z",
+              "endTime": "2026-07-22T22:02:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T22:02:00Z",
+              "endTime": "2026-07-22T22:15:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T22:15:00Z",
+              "endTime": "2026-07-22T22:16:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T22:16:00Z",
+              "endTime": "2026-07-22T22:20:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T22:20:00Z",
+              "endTime": "2026-07-22T22:21:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T22:21:00Z",
+              "endTime": "2026-07-22T22:31:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T22:31:00Z",
+              "endTime": "2026-07-22T22:33:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T22:33:00Z",
+              "endTime": "2026-07-22T22:39:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T22:39:00Z",
+              "endTime": "2026-07-22T22:47:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-22T22:47:00Z",
+              "endTime": "2026-07-22T22:49:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T22:49:00Z",
+              "endTime": "2026-07-22T22:52:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-22T22:52:00Z",
+              "endTime": "2026-07-22T22:54:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T22:54:00Z",
+              "endTime": "2026-07-22T22:57:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T22:57:00Z",
+              "endTime": "2026-07-22T22:58:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T22:58:00Z",
+              "endTime": "2026-07-22T23:02:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T23:02:00Z",
+              "endTime": "2026-07-22T23:03:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T23:03:00Z",
+              "endTime": "2026-07-22T23:11:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-22T23:11:00Z",
+              "endTime": "2026-07-22T23:29:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-22T23:29:00Z",
+              "endTime": "2026-07-22T23:30:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-22T23:30:00Z",
+              "endTime": "2026-07-22T23:49:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-22T23:49:00Z",
+              "endTime": "2026-07-22T23:52:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "5a7c2f43-b795-9fee-3e56-b0271244826d",
+      "startTime": "2026-07-23T18:07:00Z",
+      "endTime": "2026-07-23T22:18:00Z",
+      "startLocalDateTime": "2026-07-24T03:07:00",
+      "endLocalDateTime": "2026-07-24T07:18:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-07-23T22:46:30.111Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT4H11M",
+      "sleepScore": 66,
+      "sessions": [
+        {
+          "startTime": "2026-07-23T18:07:00Z",
+          "endTime": "2026-07-23T22:18:00Z",
+          "duration": "PT4H11M",
+          "stages": [
+            {
+              "startTime": "2026-07-23T18:07:00Z",
+              "endTime": "2026-07-23T18:09:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T18:09:00Z",
+              "endTime": "2026-07-23T18:10:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T18:10:00Z",
+              "endTime": "2026-07-23T18:18:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T18:18:00Z",
+              "endTime": "2026-07-23T18:20:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-23T18:20:00Z",
+              "endTime": "2026-07-23T18:21:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T18:21:00Z",
+              "endTime": "2026-07-23T18:22:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-23T18:22:00Z",
+              "endTime": "2026-07-23T18:24:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T18:24:00Z",
+              "endTime": "2026-07-23T18:26:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T18:26:00Z",
+              "endTime": "2026-07-23T18:27:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T18:27:00Z",
+              "endTime": "2026-07-23T18:28:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T18:28:00Z",
+              "endTime": "2026-07-23T18:37:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T18:37:00Z",
+              "endTime": "2026-07-23T18:38:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T18:38:00Z",
+              "endTime": "2026-07-23T18:46:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T18:46:00Z",
+              "endTime": "2026-07-23T19:04:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-23T19:04:00Z",
+              "endTime": "2026-07-23T19:19:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T19:19:00Z",
+              "endTime": "2026-07-23T19:35:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-23T19:35:00Z",
+              "endTime": "2026-07-23T19:36:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T19:36:00Z",
+              "endTime": "2026-07-23T19:37:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T19:37:00Z",
+              "endTime": "2026-07-23T20:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T20:05:00Z",
+              "endTime": "2026-07-23T20:09:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-23T20:09:00Z",
+              "endTime": "2026-07-23T20:11:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T20:11:00Z",
+              "endTime": "2026-07-23T20:36:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T20:36:00Z",
+              "endTime": "2026-07-23T20:38:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T20:38:00Z",
+              "endTime": "2026-07-23T20:52:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T20:52:00Z",
+              "endTime": "2026-07-23T21:20:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-23T21:20:00Z",
+              "endTime": "2026-07-23T21:21:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T21:21:00Z",
+              "endTime": "2026-07-23T21:36:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T21:36:00Z",
+              "endTime": "2026-07-23T21:37:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T21:37:00Z",
+              "endTime": "2026-07-23T21:45:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T21:45:00Z",
+              "endTime": "2026-07-23T21:46:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T21:46:00Z",
+              "endTime": "2026-07-23T21:56:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T21:56:00Z",
+              "endTime": "2026-07-23T21:57:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T21:57:00Z",
+              "endTime": "2026-07-23T22:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T22:05:00Z",
+              "endTime": "2026-07-23T22:07:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-23T22:07:00Z",
+              "endTime": "2026-07-23T22:16:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-23T22:16:00Z",
+              "endTime": "2026-07-23T22:18:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "8883f99b-1ecf-007d-0925-1f5886484725",
+      "startTime": "2026-07-24T15:38:00Z",
+      "endTime": "2026-07-25T03:00:00Z",
+      "startLocalDateTime": "2026-07-25T00:38:00",
+      "endLocalDateTime": "2026-07-25T12:00:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-07-25T03:01:20.070Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT11H22M",
+      "sleepScore": 83,
+      "sessions": [
+        {
+          "startTime": "2026-07-24T15:38:00Z",
+          "endTime": "2026-07-25T03:00:00Z",
+          "duration": "PT11H22M",
+          "stages": [
+            {
+              "startTime": "2026-07-24T15:38:00Z",
+              "endTime": "2026-07-24T15:46:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T15:46:00Z",
+              "endTime": "2026-07-24T16:11:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-24T16:11:00Z",
+              "endTime": "2026-07-24T16:12:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T16:12:00Z",
+              "endTime": "2026-07-24T16:13:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T16:13:00Z",
+              "endTime": "2026-07-24T16:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T16:25:00Z",
+              "endTime": "2026-07-24T16:26:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-24T16:26:00Z",
+              "endTime": "2026-07-24T16:30:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T16:30:00Z",
+              "endTime": "2026-07-24T16:32:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T16:32:00Z",
+              "endTime": "2026-07-24T16:36:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T16:36:00Z",
+              "endTime": "2026-07-24T16:37:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T16:37:00Z",
+              "endTime": "2026-07-24T16:42:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T16:42:00Z",
+              "endTime": "2026-07-24T16:51:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-24T16:51:00Z",
+              "endTime": "2026-07-24T16:52:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T16:52:00Z",
+              "endTime": "2026-07-24T16:54:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-24T16:54:00Z",
+              "endTime": "2026-07-24T17:04:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T17:04:00Z",
+              "endTime": "2026-07-24T17:07:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T17:07:00Z",
+              "endTime": "2026-07-24T17:11:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T17:11:00Z",
+              "endTime": "2026-07-24T17:12:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T17:12:00Z",
+              "endTime": "2026-07-24T17:41:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T17:41:00Z",
+              "endTime": "2026-07-24T17:57:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-24T17:57:00Z",
+              "endTime": "2026-07-24T17:58:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T17:58:00Z",
+              "endTime": "2026-07-24T18:06:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T18:06:00Z",
+              "endTime": "2026-07-24T18:36:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-24T18:36:00Z",
+              "endTime": "2026-07-24T18:37:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T18:37:00Z",
+              "endTime": "2026-07-24T18:43:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T18:43:00Z",
+              "endTime": "2026-07-24T18:44:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T18:44:00Z",
+              "endTime": "2026-07-24T18:45:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T18:45:00Z",
+              "endTime": "2026-07-24T18:46:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T18:46:00Z",
+              "endTime": "2026-07-24T18:54:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T18:54:00Z",
+              "endTime": "2026-07-24T18:55:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T18:55:00Z",
+              "endTime": "2026-07-24T19:11:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T19:11:00Z",
+              "endTime": "2026-07-24T19:13:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-24T19:13:00Z",
+              "endTime": "2026-07-24T19:16:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T19:16:00Z",
+              "endTime": "2026-07-24T19:17:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T19:17:00Z",
+              "endTime": "2026-07-24T19:18:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T19:18:00Z",
+              "endTime": "2026-07-24T19:19:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T19:19:00Z",
+              "endTime": "2026-07-24T19:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T19:25:00Z",
+              "endTime": "2026-07-24T19:45:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-24T19:45:00Z",
+              "endTime": "2026-07-24T19:56:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T19:56:00Z",
+              "endTime": "2026-07-24T19:57:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T19:57:00Z",
+              "endTime": "2026-07-24T20:03:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T20:03:00Z",
+              "endTime": "2026-07-24T20:04:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T20:04:00Z",
+              "endTime": "2026-07-24T20:19:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T20:19:00Z",
+              "endTime": "2026-07-24T20:36:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-24T20:36:00Z",
+              "endTime": "2026-07-24T20:38:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T20:38:00Z",
+              "endTime": "2026-07-24T20:39:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T20:39:00Z",
+              "endTime": "2026-07-24T20:52:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T20:52:00Z",
+              "endTime": "2026-07-24T20:53:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-24T20:53:00Z",
+              "endTime": "2026-07-24T20:54:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T20:54:00Z",
+              "endTime": "2026-07-24T20:56:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T20:56:00Z",
+              "endTime": "2026-07-24T21:26:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-24T21:26:00Z",
+              "endTime": "2026-07-24T21:28:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T21:28:00Z",
+              "endTime": "2026-07-24T21:52:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T21:52:00Z",
+              "endTime": "2026-07-24T21:54:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T21:54:00Z",
+              "endTime": "2026-07-24T22:06:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T22:06:00Z",
+              "endTime": "2026-07-24T22:08:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-24T22:08:00Z",
+              "endTime": "2026-07-24T22:11:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T22:11:00Z",
+              "endTime": "2026-07-24T22:13:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T22:13:00Z",
+              "endTime": "2026-07-24T22:16:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T22:16:00Z",
+              "endTime": "2026-07-24T22:17:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T22:17:00Z",
+              "endTime": "2026-07-24T22:21:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T22:21:00Z",
+              "endTime": "2026-07-24T23:03:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T23:03:00Z",
+              "endTime": "2026-07-24T23:06:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T23:06:00Z",
+              "endTime": "2026-07-24T23:09:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T23:09:00Z",
+              "endTime": "2026-07-24T23:17:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T23:17:00Z",
+              "endTime": "2026-07-24T23:21:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-24T23:21:00Z",
+              "endTime": "2026-07-24T23:23:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T23:23:00Z",
+              "endTime": "2026-07-24T23:47:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T23:47:00Z",
+              "endTime": "2026-07-24T23:49:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-24T23:49:00Z",
+              "endTime": "2026-07-24T23:55:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-24T23:55:00Z",
+              "endTime": "2026-07-25T01:03:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-25T01:03:00Z",
+              "endTime": "2026-07-25T01:13:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-25T01:13:00Z",
+              "endTime": "2026-07-25T01:14:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-25T01:14:00Z",
+              "endTime": "2026-07-25T01:56:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-25T01:56:00Z",
+              "endTime": "2026-07-25T01:57:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-25T01:57:00Z",
+              "endTime": "2026-07-25T01:58:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-25T01:58:00Z",
+              "endTime": "2026-07-25T01:59:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-25T01:59:00Z",
+              "endTime": "2026-07-25T02:04:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-25T02:04:00Z",
+              "endTime": "2026-07-25T02:07:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-25T02:07:00Z",
+              "endTime": "2026-07-25T02:08:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-25T02:08:00Z",
+              "endTime": "2026-07-25T02:30:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-25T02:30:00Z",
+              "endTime": "2026-07-25T02:32:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-25T02:32:00Z",
+              "endTime": "2026-07-25T02:41:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-25T02:41:00Z",
+              "endTime": "2026-07-25T02:42:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-25T02:42:00Z",
+              "endTime": "2026-07-25T03:00:00Z",
+              "stage": "LIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "34b1fce1-1b95-98c1-946b-30fc79a00a50",
+      "startTime": "2026-07-26T19:24:00Z",
+      "endTime": "2026-07-26T22:28:00Z",
+      "startLocalDateTime": "2026-07-27T04:24:00",
+      "endLocalDateTime": "2026-07-27T07:28:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-07-26T22:45:17.305Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT3H4M",
+      "sleepScore": 64,
+      "sessions": [
+        {
+          "startTime": "2026-07-26T19:24:00Z",
+          "endTime": "2026-07-26T22:28:00Z",
+          "duration": "PT3H4M",
+          "stages": [
+            {
+              "startTime": "2026-07-26T19:24:00Z",
+              "endTime": "2026-07-26T19:34:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T19:34:00Z",
+              "endTime": "2026-07-26T19:41:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-26T19:41:00Z",
+              "endTime": "2026-07-26T19:44:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T19:44:00Z",
+              "endTime": "2026-07-26T19:45:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-26T19:45:00Z",
+              "endTime": "2026-07-26T20:08:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T20:08:00Z",
+              "endTime": "2026-07-26T20:09:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-26T20:09:00Z",
+              "endTime": "2026-07-26T20:10:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T20:10:00Z",
+              "endTime": "2026-07-26T20:38:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-26T20:38:00Z",
+              "endTime": "2026-07-26T21:03:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T21:03:00Z",
+              "endTime": "2026-07-26T21:17:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-26T21:17:00Z",
+              "endTime": "2026-07-26T21:18:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T21:18:00Z",
+              "endTime": "2026-07-26T21:19:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-26T21:19:00Z",
+              "endTime": "2026-07-26T21:50:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T21:50:00Z",
+              "endTime": "2026-07-26T21:51:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-26T21:51:00Z",
+              "endTime": "2026-07-26T21:54:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T21:54:00Z",
+              "endTime": "2026-07-26T22:15:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-26T22:15:00Z",
+              "endTime": "2026-07-26T22:18:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-26T22:18:00Z",
+              "endTime": "2026-07-26T22:19:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T22:19:00Z",
+              "endTime": "2026-07-26T22:20:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-26T22:20:00Z",
+              "endTime": "2026-07-26T22:22:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-26T22:22:00Z",
+              "endTime": "2026-07-26T22:26:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-26T22:26:00Z",
+              "endTime": "2026-07-26T22:28:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "1bec9404-c08e-fc7c-d0cd-b402630ed8b1",
+      "startTime": "2026-07-27T15:09:00Z",
+      "endTime": "2026-07-27T22:20:00Z",
+      "startLocalDateTime": "2026-07-28T00:09:00",
+      "endLocalDateTime": "2026-07-28T07:20:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-07-27T22:20:45.553Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT7H11M",
+      "sleepScore": 92,
+      "sessions": [
+        {
+          "startTime": "2026-07-27T15:09:00Z",
+          "endTime": "2026-07-27T22:20:00Z",
+          "duration": "PT7H11M",
+          "stages": [
+            {
+              "startTime": "2026-07-27T15:09:00Z",
+              "endTime": "2026-07-27T15:10:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T15:10:00Z",
+              "endTime": "2026-07-27T15:11:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T15:11:00Z",
+              "endTime": "2026-07-27T15:22:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T15:22:00Z",
+              "endTime": "2026-07-27T15:29:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-27T15:29:00Z",
+              "endTime": "2026-07-27T15:31:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T15:31:00Z",
+              "endTime": "2026-07-27T15:34:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T15:34:00Z",
+              "endTime": "2026-07-27T15:45:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T15:45:00Z",
+              "endTime": "2026-07-27T16:06:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-27T16:06:00Z",
+              "endTime": "2026-07-27T16:17:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-27T16:17:00Z",
+              "endTime": "2026-07-27T16:18:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T16:18:00Z",
+              "endTime": "2026-07-27T16:27:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T16:27:00Z",
+              "endTime": "2026-07-27T16:32:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-27T16:32:00Z",
+              "endTime": "2026-07-27T16:33:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T16:33:00Z",
+              "endTime": "2026-07-27T16:35:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T16:35:00Z",
+              "endTime": "2026-07-27T16:57:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T16:57:00Z",
+              "endTime": "2026-07-27T17:16:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-27T17:16:00Z",
+              "endTime": "2026-07-27T17:18:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T17:18:00Z",
+              "endTime": "2026-07-27T17:22:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T17:22:00Z",
+              "endTime": "2026-07-27T17:26:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T17:26:00Z",
+              "endTime": "2026-07-27T17:27:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T17:27:00Z",
+              "endTime": "2026-07-27T17:45:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T17:45:00Z",
+              "endTime": "2026-07-27T17:47:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T17:47:00Z",
+              "endTime": "2026-07-27T18:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T18:05:00Z",
+              "endTime": "2026-07-27T18:06:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T18:06:00Z",
+              "endTime": "2026-07-27T18:30:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T18:30:00Z",
+              "endTime": "2026-07-27T18:33:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T18:33:00Z",
+              "endTime": "2026-07-27T18:41:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T18:41:00Z",
+              "endTime": "2026-07-27T19:02:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-27T19:02:00Z",
+              "endTime": "2026-07-27T19:03:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T19:03:00Z",
+              "endTime": "2026-07-27T19:17:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-27T19:17:00Z",
+              "endTime": "2026-07-27T19:56:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T19:56:00Z",
+              "endTime": "2026-07-27T19:57:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T19:57:00Z",
+              "endTime": "2026-07-27T20:08:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T20:08:00Z",
+              "endTime": "2026-07-27T20:09:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T20:09:00Z",
+              "endTime": "2026-07-27T20:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T20:25:00Z",
+              "endTime": "2026-07-27T20:27:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T20:27:00Z",
+              "endTime": "2026-07-27T20:41:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T20:41:00Z",
+              "endTime": "2026-07-27T21:28:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-27T21:28:00Z",
+              "endTime": "2026-07-27T21:29:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T21:29:00Z",
+              "endTime": "2026-07-27T21:50:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-27T21:50:00Z",
+              "endTime": "2026-07-27T21:51:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-27T21:51:00Z",
+              "endTime": "2026-07-27T22:20:00Z",
+              "stage": "LIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "e27eaf00-5d6e-9b2f-4bda-aa5a6993b1e6",
+      "startTime": "2026-07-30T17:23:00Z",
+      "endTime": "2026-07-30T23:06:00Z",
+      "startLocalDateTime": "2026-07-31T02:23:00",
+      "endLocalDateTime": "2026-07-31T08:06:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-07-30T23:26:26.187Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT5H43M",
+      "sleepScore": 61,
+      "sessions": [
+        {
+          "startTime": "2026-07-30T17:23:00Z",
+          "endTime": "2026-07-30T23:06:00Z",
+          "duration": "PT5H43M",
+          "stages": [
+            {
+              "startTime": "2026-07-30T17:23:00Z",
+              "endTime": "2026-07-30T17:31:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T17:31:00Z",
+              "endTime": "2026-07-30T17:58:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-30T17:58:00Z",
+              "endTime": "2026-07-30T18:22:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-30T18:22:00Z",
+              "endTime": "2026-07-30T18:40:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T18:40:00Z",
+              "endTime": "2026-07-30T18:41:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T18:41:00Z",
+              "endTime": "2026-07-30T18:55:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T18:55:00Z",
+              "endTime": "2026-07-30T19:07:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-30T19:07:00Z",
+              "endTime": "2026-07-30T19:20:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T19:20:00Z",
+              "endTime": "2026-07-30T19:25:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-07-30T19:25:00Z",
+              "endTime": "2026-07-30T19:26:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T19:26:00Z",
+              "endTime": "2026-07-30T19:44:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T19:44:00Z",
+              "endTime": "2026-07-30T19:45:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T19:45:00Z",
+              "endTime": "2026-07-30T19:47:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T19:47:00Z",
+              "endTime": "2026-07-30T19:53:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T19:53:00Z",
+              "endTime": "2026-07-30T20:28:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-30T20:28:00Z",
+              "endTime": "2026-07-30T20:58:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T20:58:00Z",
+              "endTime": "2026-07-30T21:00:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T21:00:00Z",
+              "endTime": "2026-07-30T21:30:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T21:30:00Z",
+              "endTime": "2026-07-30T21:31:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T21:31:00Z",
+              "endTime": "2026-07-30T21:53:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T21:53:00Z",
+              "endTime": "2026-07-30T21:54:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T21:54:00Z",
+              "endTime": "2026-07-30T22:04:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T22:04:00Z",
+              "endTime": "2026-07-30T22:09:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-30T22:09:00Z",
+              "endTime": "2026-07-30T22:11:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T22:11:00Z",
+              "endTime": "2026-07-30T22:13:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-07-30T22:13:00Z",
+              "endTime": "2026-07-30T23:03:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-07-30T23:03:00Z",
+              "endTime": "2026-07-30T23:04:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-07-30T23:04:00Z",
+              "endTime": "2026-07-30T23:06:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "f05eacc6-2b47-a02f-8a84-0b8ac3a5eb5d",
+      "startTime": "2026-08-01T19:56:00Z",
+      "endTime": "2026-08-02T04:30:00Z",
+      "startLocalDateTime": "2026-08-02T04:56:00",
+      "endLocalDateTime": "2026-08-02T13:30:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-02T04:31:15.083Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT8H34M",
+      "sleepScore": 83,
+      "sessions": [
+        {
+          "startTime": "2026-08-01T19:56:00Z",
+          "endTime": "2026-08-02T04:30:00Z",
+          "duration": "PT8H34M",
+          "stages": [
+            {
+              "startTime": "2026-08-01T19:56:00Z",
+              "endTime": "2026-08-01T20:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T20:05:00Z",
+              "endTime": "2026-08-01T20:31:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-01T20:31:00Z",
+              "endTime": "2026-08-01T20:34:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T20:34:00Z",
+              "endTime": "2026-08-01T20:52:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T20:52:00Z",
+              "endTime": "2026-08-01T21:02:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-01T21:02:00Z",
+              "endTime": "2026-08-01T21:03:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T21:03:00Z",
+              "endTime": "2026-08-01T21:09:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T21:09:00Z",
+              "endTime": "2026-08-01T21:10:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T21:10:00Z",
+              "endTime": "2026-08-01T21:19:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T21:19:00Z",
+              "endTime": "2026-08-01T21:20:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T21:20:00Z",
+              "endTime": "2026-08-01T21:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T21:25:00Z",
+              "endTime": "2026-08-01T21:26:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T21:26:00Z",
+              "endTime": "2026-08-01T21:45:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T21:45:00Z",
+              "endTime": "2026-08-01T21:46:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-01T21:46:00Z",
+              "endTime": "2026-08-01T21:48:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T21:48:00Z",
+              "endTime": "2026-08-01T21:51:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T21:51:00Z",
+              "endTime": "2026-08-01T21:52:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T21:52:00Z",
+              "endTime": "2026-08-01T22:08:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T22:08:00Z",
+              "endTime": "2026-08-01T22:12:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T22:12:00Z",
+              "endTime": "2026-08-01T22:23:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T22:23:00Z",
+              "endTime": "2026-08-01T23:12:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T23:12:00Z",
+              "endTime": "2026-08-01T23:31:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-01T23:31:00Z",
+              "endTime": "2026-08-01T23:41:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-01T23:41:00Z",
+              "endTime": "2026-08-02T00:04:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T00:04:00Z",
+              "endTime": "2026-08-02T00:07:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-02T00:07:00Z",
+              "endTime": "2026-08-02T00:33:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T00:33:00Z",
+              "endTime": "2026-08-02T01:01:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T01:01:00Z",
+              "endTime": "2026-08-02T01:02:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T01:02:00Z",
+              "endTime": "2026-08-02T01:06:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T01:06:00Z",
+              "endTime": "2026-08-02T01:09:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T01:09:00Z",
+              "endTime": "2026-08-02T01:38:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T01:38:00Z",
+              "endTime": "2026-08-02T01:40:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T01:40:00Z",
+              "endTime": "2026-08-02T01:42:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T01:42:00Z",
+              "endTime": "2026-08-02T01:44:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T01:44:00Z",
+              "endTime": "2026-08-02T01:50:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T01:50:00Z",
+              "endTime": "2026-08-02T01:53:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T01:53:00Z",
+              "endTime": "2026-08-02T02:03:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T02:03:00Z",
+              "endTime": "2026-08-02T02:04:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T02:04:00Z",
+              "endTime": "2026-08-02T02:06:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T02:06:00Z",
+              "endTime": "2026-08-02T02:25:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T02:25:00Z",
+              "endTime": "2026-08-02T02:30:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T02:30:00Z",
+              "endTime": "2026-08-02T03:00:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T03:00:00Z",
+              "endTime": "2026-08-02T03:01:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-02T03:01:00Z",
+              "endTime": "2026-08-02T03:03:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T03:03:00Z",
+              "endTime": "2026-08-02T03:04:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T03:04:00Z",
+              "endTime": "2026-08-02T03:30:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T03:30:00Z",
+              "endTime": "2026-08-02T03:58:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T03:58:00Z",
+              "endTime": "2026-08-02T04:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T04:05:00Z",
+              "endTime": "2026-08-02T04:06:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T04:06:00Z",
+              "endTime": "2026-08-02T04:10:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T04:10:00Z",
+              "endTime": "2026-08-02T04:11:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T04:11:00Z",
+              "endTime": "2026-08-02T04:30:00Z",
+              "stage": "LIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "d07d0d0e-d79f-2f73-e760-4c3554e5f579",
+      "startTime": "2026-08-02T19:20:00Z",
+      "endTime": "2026-08-02T23:39:00Z",
+      "startLocalDateTime": "2026-08-03T04:20:00",
+      "endLocalDateTime": "2026-08-03T08:39:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-02T23:45:41.928Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT4H19M",
+      "sleepScore": 57,
+      "sessions": [
+        {
+          "startTime": "2026-08-02T19:20:00Z",
+          "endTime": "2026-08-02T23:39:00Z",
+          "duration": "PT4H19M",
+          "stages": [
+            {
+              "startTime": "2026-08-02T19:20:00Z",
+              "endTime": "2026-08-02T19:31:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T19:31:00Z",
+              "endTime": "2026-08-02T19:43:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-02T19:43:00Z",
+              "endTime": "2026-08-02T19:45:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T19:45:00Z",
+              "endTime": "2026-08-02T19:47:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T19:47:00Z",
+              "endTime": "2026-08-02T19:48:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T19:48:00Z",
+              "endTime": "2026-08-02T19:58:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T19:58:00Z",
+              "endTime": "2026-08-02T20:18:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-02T20:18:00Z",
+              "endTime": "2026-08-02T20:21:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T20:21:00Z",
+              "endTime": "2026-08-02T20:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T20:25:00Z",
+              "endTime": "2026-08-02T20:26:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T20:26:00Z",
+              "endTime": "2026-08-02T20:31:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T20:31:00Z",
+              "endTime": "2026-08-02T20:34:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T20:34:00Z",
+              "endTime": "2026-08-02T20:35:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T20:35:00Z",
+              "endTime": "2026-08-02T21:14:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T21:14:00Z",
+              "endTime": "2026-08-02T21:33:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T21:33:00Z",
+              "endTime": "2026-08-02T21:44:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-02T21:44:00Z",
+              "endTime": "2026-08-02T21:46:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T21:46:00Z",
+              "endTime": "2026-08-02T22:08:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T22:08:00Z",
+              "endTime": "2026-08-02T22:11:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T22:11:00Z",
+              "endTime": "2026-08-02T22:13:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T22:13:00Z",
+              "endTime": "2026-08-02T22:16:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T22:16:00Z",
+              "endTime": "2026-08-02T22:17:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T22:17:00Z",
+              "endTime": "2026-08-02T22:26:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T22:26:00Z",
+              "endTime": "2026-08-02T22:27:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T22:27:00Z",
+              "endTime": "2026-08-02T22:29:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-02T22:29:00Z",
+              "endTime": "2026-08-02T22:55:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T22:55:00Z",
+              "endTime": "2026-08-02T23:19:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T23:19:00Z",
+              "endTime": "2026-08-02T23:20:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-02T23:20:00Z",
+              "endTime": "2026-08-02T23:34:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-02T23:34:00Z",
+              "endTime": "2026-08-02T23:39:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "3edd7b10-66b1-1b42-76bb-8ef0dae671e1",
+      "startTime": "2026-08-03T17:34:00Z",
+      "endTime": "2026-08-03T22:40:00Z",
+      "startLocalDateTime": "2026-08-04T02:34:00",
+      "endLocalDateTime": "2026-08-04T07:40:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-03T22:40:21.131Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT5H6M",
+      "sleepScore": 69,
+      "sessions": [
+        {
+          "startTime": "2026-08-03T17:34:00Z",
+          "endTime": "2026-08-03T22:40:00Z",
+          "duration": "PT5H6M",
+          "stages": [
+            {
+              "startTime": "2026-08-03T17:34:00Z",
+              "endTime": "2026-08-03T17:49:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T17:49:00Z",
+              "endTime": "2026-08-03T17:51:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T17:51:00Z",
+              "endTime": "2026-08-03T18:08:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T18:08:00Z",
+              "endTime": "2026-08-03T18:23:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-03T18:23:00Z",
+              "endTime": "2026-08-03T18:24:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T18:24:00Z",
+              "endTime": "2026-08-03T18:37:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T18:37:00Z",
+              "endTime": "2026-08-03T18:38:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-03T18:38:00Z",
+              "endTime": "2026-08-03T18:39:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T18:39:00Z",
+              "endTime": "2026-08-03T18:50:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-03T18:50:00Z",
+              "endTime": "2026-08-03T18:52:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T18:52:00Z",
+              "endTime": "2026-08-03T19:23:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T19:23:00Z",
+              "endTime": "2026-08-03T19:25:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T19:25:00Z",
+              "endTime": "2026-08-03T19:30:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T19:30:00Z",
+              "endTime": "2026-08-03T19:31:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T19:31:00Z",
+              "endTime": "2026-08-03T19:48:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T19:48:00Z",
+              "endTime": "2026-08-03T19:49:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-03T19:49:00Z",
+              "endTime": "2026-08-03T19:53:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T19:53:00Z",
+              "endTime": "2026-08-03T19:57:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-03T19:57:00Z",
+              "endTime": "2026-08-03T19:59:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T19:59:00Z",
+              "endTime": "2026-08-03T20:04:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T20:04:00Z",
+              "endTime": "2026-08-03T20:26:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-03T20:26:00Z",
+              "endTime": "2026-08-03T20:27:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T20:27:00Z",
+              "endTime": "2026-08-03T20:39:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-03T20:39:00Z",
+              "endTime": "2026-08-03T21:03:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T21:03:00Z",
+              "endTime": "2026-08-03T21:26:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-03T21:26:00Z",
+              "endTime": "2026-08-03T21:28:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T21:28:00Z",
+              "endTime": "2026-08-03T21:48:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-03T21:48:00Z",
+              "endTime": "2026-08-03T22:20:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-03T22:20:00Z",
+              "endTime": "2026-08-03T22:35:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-03T22:35:00Z",
+              "endTime": "2026-08-03T22:40:00Z",
+              "stage": "LIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "88c9360a-38d1-8950-85d6-c7a19277e0a9",
+      "startTime": "2026-08-06T16:22:00Z",
+      "endTime": "2026-08-06T22:25:00Z",
+      "startLocalDateTime": "2026-08-07T01:22:00",
+      "endLocalDateTime": "2026-08-07T07:25:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-06T22:57:12.938Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT6H3M",
+      "sleepScore": 81,
+      "sessions": [
+        {
+          "startTime": "2026-08-06T16:22:00Z",
+          "endTime": "2026-08-06T22:25:00Z",
+          "duration": "PT6H3M",
+          "stages": [
+            {
+              "startTime": "2026-08-06T16:22:00Z",
+              "endTime": "2026-08-06T16:26:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T16:26:00Z",
+              "endTime": "2026-08-06T16:38:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T16:38:00Z",
+              "endTime": "2026-08-06T17:08:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-06T17:08:00Z",
+              "endTime": "2026-08-06T17:10:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T17:10:00Z",
+              "endTime": "2026-08-06T17:13:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T17:13:00Z",
+              "endTime": "2026-08-06T17:14:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T17:14:00Z",
+              "endTime": "2026-08-06T17:28:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T17:28:00Z",
+              "endTime": "2026-08-06T17:29:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T17:29:00Z",
+              "endTime": "2026-08-06T17:42:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T17:42:00Z",
+              "endTime": "2026-08-06T17:43:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-06T17:43:00Z",
+              "endTime": "2026-08-06T17:44:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T17:44:00Z",
+              "endTime": "2026-08-06T18:02:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-06T18:02:00Z",
+              "endTime": "2026-08-06T18:13:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T18:13:00Z",
+              "endTime": "2026-08-06T18:22:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-06T18:22:00Z",
+              "endTime": "2026-08-06T18:34:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T18:34:00Z",
+              "endTime": "2026-08-06T18:35:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T18:35:00Z",
+              "endTime": "2026-08-06T18:56:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T18:56:00Z",
+              "endTime": "2026-08-06T18:57:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T18:57:00Z",
+              "endTime": "2026-08-06T19:08:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T19:08:00Z",
+              "endTime": "2026-08-06T19:36:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-06T19:36:00Z",
+              "endTime": "2026-08-06T19:38:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T19:38:00Z",
+              "endTime": "2026-08-06T20:04:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T20:04:00Z",
+              "endTime": "2026-08-06T20:09:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-06T20:09:00Z",
+              "endTime": "2026-08-06T20:24:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T20:24:00Z",
+              "endTime": "2026-08-06T20:25:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-06T20:25:00Z",
+              "endTime": "2026-08-06T20:27:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T20:27:00Z",
+              "endTime": "2026-08-06T20:28:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T20:28:00Z",
+              "endTime": "2026-08-06T21:11:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-06T21:11:00Z",
+              "endTime": "2026-08-06T21:29:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T21:29:00Z",
+              "endTime": "2026-08-06T21:30:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T21:30:00Z",
+              "endTime": "2026-08-06T22:01:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T22:01:00Z",
+              "endTime": "2026-08-06T22:03:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T22:03:00Z",
+              "endTime": "2026-08-06T22:12:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T22:12:00Z",
+              "endTime": "2026-08-06T22:15:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-06T22:15:00Z",
+              "endTime": "2026-08-06T22:16:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-06T22:16:00Z",
+              "endTime": "2026-08-06T22:23:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-06T22:23:00Z",
+              "endTime": "2026-08-06T22:25:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "3a77cddd-d7df-435b-9d7c-db3347185dd0",
+      "startTime": "2026-08-07T12:50:00Z",
+      "endTime": "2026-08-07T22:20:00Z",
+      "startLocalDateTime": "2026-08-07T21:50:00",
+      "endLocalDateTime": "2026-08-08T07:20:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-08T04:02:07.252Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "4XgosjMJcS"
+      },
+      "duration": "PT9H30M",
+      "sleepScore": null,
+      "sessions": [
+        {
+          "startTime": "2026-08-07T12:50:00Z",
+          "endTime": "2026-08-07T22:20:00Z",
+          "duration": "PT9H30M",
+          "stages": []
+        }
+      ]
+    },
+    {
+      "uid": "586fd8f4-08db-4aa6-a693-150af69c24f0",
+      "startTime": "2026-08-07T22:50:00Z",
+      "endTime": "2026-08-08T03:20:00Z",
+      "startLocalDateTime": "2026-08-08T07:50:00",
+      "endLocalDateTime": "2026-08-08T12:20:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-08T04:02:19.449Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "4XgosjMJcS"
+      },
+      "duration": "PT4H30M",
+      "sleepScore": null,
+      "sessions": [
+        {
+          "startTime": "2026-08-07T22:50:00Z",
+          "endTime": "2026-08-08T03:20:00Z",
+          "duration": "PT4H30M",
+          "stages": []
+        }
+      ]
+    },
+    {
+      "uid": "4a5cc30b-14be-307c-6140-80d6e1d1f8e0",
+      "startTime": "2026-08-09T18:40:00Z",
+      "endTime": "2026-08-09T22:38:00Z",
+      "startLocalDateTime": "2026-08-10T03:40:00",
+      "endLocalDateTime": "2026-08-10T07:38:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-09T22:54:48.386Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT3H58M",
+      "sleepScore": 66,
+      "sessions": [
+        {
+          "startTime": "2026-08-09T18:40:00Z",
+          "endTime": "2026-08-09T22:38:00Z",
+          "duration": "PT3H58M",
+          "stages": [
+            {
+              "startTime": "2026-08-09T18:40:00Z",
+              "endTime": "2026-08-09T18:47:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T18:47:00Z",
+              "endTime": "2026-08-09T18:49:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T18:49:00Z",
+              "endTime": "2026-08-09T18:51:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T18:51:00Z",
+              "endTime": "2026-08-09T18:52:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T18:52:00Z",
+              "endTime": "2026-08-09T19:02:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T19:02:00Z",
+              "endTime": "2026-08-09T19:26:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-09T19:26:00Z",
+              "endTime": "2026-08-09T19:28:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T19:28:00Z",
+              "endTime": "2026-08-09T19:33:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T19:33:00Z",
+              "endTime": "2026-08-09T19:55:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-09T19:55:00Z",
+              "endTime": "2026-08-09T20:26:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T20:26:00Z",
+              "endTime": "2026-08-09T20:27:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T20:27:00Z",
+              "endTime": "2026-08-09T20:40:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T20:40:00Z",
+              "endTime": "2026-08-09T20:42:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-09T20:42:00Z",
+              "endTime": "2026-08-09T20:48:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T20:48:00Z",
+              "endTime": "2026-08-09T20:49:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T20:49:00Z",
+              "endTime": "2026-08-09T21:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T21:05:00Z",
+              "endTime": "2026-08-09T21:06:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T21:06:00Z",
+              "endTime": "2026-08-09T21:16:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T21:16:00Z",
+              "endTime": "2026-08-09T21:17:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-09T21:17:00Z",
+              "endTime": "2026-08-09T21:18:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T21:18:00Z",
+              "endTime": "2026-08-09T21:46:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-09T21:46:00Z",
+              "endTime": "2026-08-09T22:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T22:05:00Z",
+              "endTime": "2026-08-09T22:06:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T22:06:00Z",
+              "endTime": "2026-08-09T22:15:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T22:15:00Z",
+              "endTime": "2026-08-09T22:16:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T22:16:00Z",
+              "endTime": "2026-08-09T22:22:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T22:22:00Z",
+              "endTime": "2026-08-09T22:23:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T22:23:00Z",
+              "endTime": "2026-08-09T22:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T22:25:00Z",
+              "endTime": "2026-08-09T22:26:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T22:26:00Z",
+              "endTime": "2026-08-09T22:31:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-09T22:31:00Z",
+              "endTime": "2026-08-09T22:32:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-09T22:32:00Z",
+              "endTime": "2026-08-09T22:36:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-09T22:36:00Z",
+              "endTime": "2026-08-09T22:38:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "b15023a6-997b-5b1d-726a-8d2ac4fcbf94",
+      "startTime": "2026-08-10T17:02:00Z",
+      "endTime": "2026-08-10T22:19:00Z",
+      "startLocalDateTime": "2026-08-11T02:02:00",
+      "endLocalDateTime": "2026-08-11T07:19:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-10T22:20:47.738Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT5H17M",
+      "sleepScore": 75,
+      "sessions": [
+        {
+          "startTime": "2026-08-10T17:02:00Z",
+          "endTime": "2026-08-10T22:19:00Z",
+          "duration": "PT5H17M",
+          "stages": [
+            {
+              "startTime": "2026-08-10T17:02:00Z",
+              "endTime": "2026-08-10T17:16:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T17:16:00Z",
+              "endTime": "2026-08-10T17:48:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-10T17:48:00Z",
+              "endTime": "2026-08-10T18:15:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-10T18:15:00Z",
+              "endTime": "2026-08-10T18:20:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T18:20:00Z",
+              "endTime": "2026-08-10T18:21:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T18:21:00Z",
+              "endTime": "2026-08-10T18:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T18:25:00Z",
+              "endTime": "2026-08-10T18:26:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T18:26:00Z",
+              "endTime": "2026-08-10T18:32:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T18:32:00Z",
+              "endTime": "2026-08-10T18:33:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T18:33:00Z",
+              "endTime": "2026-08-10T18:48:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T18:48:00Z",
+              "endTime": "2026-08-10T18:53:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-10T18:53:00Z",
+              "endTime": "2026-08-10T19:02:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T19:02:00Z",
+              "endTime": "2026-08-10T19:15:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-10T19:15:00Z",
+              "endTime": "2026-08-10T19:28:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T19:28:00Z",
+              "endTime": "2026-08-10T19:29:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T19:29:00Z",
+              "endTime": "2026-08-10T19:31:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T19:31:00Z",
+              "endTime": "2026-08-10T20:03:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-10T20:03:00Z",
+              "endTime": "2026-08-10T20:06:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T20:06:00Z",
+              "endTime": "2026-08-10T20:07:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T20:07:00Z",
+              "endTime": "2026-08-10T20:19:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T20:19:00Z",
+              "endTime": "2026-08-10T20:20:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T20:20:00Z",
+              "endTime": "2026-08-10T20:24:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T20:24:00Z",
+              "endTime": "2026-08-10T20:25:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T20:25:00Z",
+              "endTime": "2026-08-10T20:30:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T20:30:00Z",
+              "endTime": "2026-08-10T20:32:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T20:32:00Z",
+              "endTime": "2026-08-10T20:59:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T20:59:00Z",
+              "endTime": "2026-08-10T21:01:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T21:01:00Z",
+              "endTime": "2026-08-10T21:09:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T21:09:00Z",
+              "endTime": "2026-08-10T21:10:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T21:10:00Z",
+              "endTime": "2026-08-10T21:16:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T21:16:00Z",
+              "endTime": "2026-08-10T21:33:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-10T21:33:00Z",
+              "endTime": "2026-08-10T21:34:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T21:34:00Z",
+              "endTime": "2026-08-10T21:53:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-10T21:53:00Z",
+              "endTime": "2026-08-10T21:54:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T21:54:00Z",
+              "endTime": "2026-08-10T21:58:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-10T21:58:00Z",
+              "endTime": "2026-08-10T21:59:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-10T21:59:00Z",
+              "endTime": "2026-08-10T22:19:00Z",
+              "stage": "LIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "13761e15-8c3e-2c34-cae7-2289b8272559",
+      "startTime": "2026-08-13T17:36:00Z",
+      "endTime": "2026-08-13T23:33:00Z",
+      "startLocalDateTime": "2026-08-14T02:36:00",
+      "endLocalDateTime": "2026-08-14T08:33:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-14T10:38:30.253Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT5H57M",
+      "sleepScore": 35,
+      "sessions": [
+        {
+          "startTime": "2026-08-13T17:36:00Z",
+          "endTime": "2026-08-13T23:33:00Z",
+          "duration": "PT5H57M",
+          "stages": [
+            {
+              "startTime": "2026-08-13T17:36:00Z",
+              "endTime": "2026-08-13T19:15:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-13T19:15:00Z",
+              "endTime": "2026-08-13T19:16:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-13T19:16:00Z",
+              "endTime": "2026-08-13T19:17:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-13T19:17:00Z",
+              "endTime": "2026-08-13T19:45:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-13T19:45:00Z",
+              "endTime": "2026-08-13T19:46:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-13T19:46:00Z",
+              "endTime": "2026-08-13T20:10:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-13T20:10:00Z",
+              "endTime": "2026-08-13T20:51:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-13T20:51:00Z",
+              "endTime": "2026-08-13T20:53:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-13T20:53:00Z",
+              "endTime": "2026-08-13T21:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-13T21:05:00Z",
+              "endTime": "2026-08-13T21:08:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-13T21:08:00Z",
+              "endTime": "2026-08-13T21:41:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-13T21:41:00Z",
+              "endTime": "2026-08-13T22:03:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-13T22:03:00Z",
+              "endTime": "2026-08-13T22:07:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-13T22:07:00Z",
+              "endTime": "2026-08-13T22:28:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-13T22:28:00Z",
+              "endTime": "2026-08-13T22:29:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-13T22:29:00Z",
+              "endTime": "2026-08-13T22:30:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-13T22:30:00Z",
+              "endTime": "2026-08-13T22:39:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-13T22:39:00Z",
+              "endTime": "2026-08-13T22:40:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-13T22:40:00Z",
+              "endTime": "2026-08-13T23:27:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-13T23:27:00Z",
+              "endTime": "2026-08-13T23:31:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-13T23:31:00Z",
+              "endTime": "2026-08-13T23:33:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ab24a081-4c5c-ed2e-7e83-edd6edf0568c",
+      "startTime": "2026-08-15T20:09:00Z",
+      "endTime": "2026-08-16T01:00:00Z",
+      "startLocalDateTime": "2026-08-16T05:09:00",
+      "endLocalDateTime": "2026-08-16T10:00:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-16T14:50:08.656Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT4H51M",
+      "sleepScore": 64,
+      "sessions": [
+        {
+          "startTime": "2026-08-15T20:09:00Z",
+          "endTime": "2026-08-16T01:00:00Z",
+          "duration": "PT4H51M",
+          "stages": [
+            {
+              "startTime": "2026-08-15T20:09:00Z",
+              "endTime": "2026-08-15T20:28:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T20:28:00Z",
+              "endTime": "2026-08-15T20:33:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-15T20:33:00Z",
+              "endTime": "2026-08-15T20:36:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T20:36:00Z",
+              "endTime": "2026-08-15T20:40:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T20:40:00Z",
+              "endTime": "2026-08-15T20:41:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T20:41:00Z",
+              "endTime": "2026-08-15T20:44:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T20:44:00Z",
+              "endTime": "2026-08-15T20:59:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T20:59:00Z",
+              "endTime": "2026-08-15T21:01:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T21:01:00Z",
+              "endTime": "2026-08-15T21:02:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T21:02:00Z",
+              "endTime": "2026-08-15T21:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T21:25:00Z",
+              "endTime": "2026-08-15T21:26:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T21:26:00Z",
+              "endTime": "2026-08-15T21:36:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T21:36:00Z",
+              "endTime": "2026-08-15T21:51:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-15T21:51:00Z",
+              "endTime": "2026-08-15T21:54:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T21:54:00Z",
+              "endTime": "2026-08-15T22:00:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T22:00:00Z",
+              "endTime": "2026-08-15T22:01:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T22:01:00Z",
+              "endTime": "2026-08-15T22:15:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T22:15:00Z",
+              "endTime": "2026-08-15T22:16:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T22:16:00Z",
+              "endTime": "2026-08-15T22:18:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T22:18:00Z",
+              "endTime": "2026-08-15T22:19:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T22:19:00Z",
+              "endTime": "2026-08-15T22:21:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T22:21:00Z",
+              "endTime": "2026-08-15T22:44:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-15T22:44:00Z",
+              "endTime": "2026-08-15T22:45:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T22:45:00Z",
+              "endTime": "2026-08-15T23:03:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-15T23:03:00Z",
+              "endTime": "2026-08-15T23:41:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T23:41:00Z",
+              "endTime": "2026-08-15T23:51:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-15T23:51:00Z",
+              "endTime": "2026-08-15T23:53:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-15T23:53:00Z",
+              "endTime": "2026-08-15T23:56:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-15T23:56:00Z",
+              "endTime": "2026-08-16T00:08:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-16T00:08:00Z",
+              "endTime": "2026-08-16T00:09:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-16T00:09:00Z",
+              "endTime": "2026-08-16T00:12:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-16T00:12:00Z",
+              "endTime": "2026-08-16T00:14:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-16T00:14:00Z",
+              "endTime": "2026-08-16T00:17:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-16T00:17:00Z",
+              "endTime": "2026-08-16T00:34:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-16T00:34:00Z",
+              "endTime": "2026-08-16T00:40:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-16T00:40:00Z",
+              "endTime": "2026-08-16T00:41:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-16T00:41:00Z",
+              "endTime": "2026-08-16T01:00:00Z",
+              "stage": "REM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "258feef5-e2f5-62fb-f243-afbceaadcf08",
+      "startTime": "2026-08-17T18:32:00Z",
+      "endTime": "2026-08-17T22:27:00Z",
+      "startLocalDateTime": "2026-08-18T03:32:00",
+      "endLocalDateTime": "2026-08-18T07:27:00",
+      "zoneOffset": "+09:00",
+      "updateTime": "2026-08-17T22:50:38.206Z",
+      "clientDataId": null,
+      "clientVersion": null,
+      "dataSource": {
+        "appId": "com.sec.android.app.shealth",
+        "deviceId": "1AIZv2ZnMd"
+      },
+      "duration": "PT3H55M",
+      "sleepScore": 60,
+      "sessions": [
+        {
+          "startTime": "2026-08-17T18:32:00Z",
+          "endTime": "2026-08-17T22:27:00Z",
+          "duration": "PT3H55M",
+          "stages": [
+            {
+              "startTime": "2026-08-17T18:32:00Z",
+              "endTime": "2026-08-17T18:44:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T18:44:00Z",
+              "endTime": "2026-08-17T19:03:00Z",
+              "stage": "DEEP"
+            },
+            {
+              "startTime": "2026-08-17T19:03:00Z",
+              "endTime": "2026-08-17T19:05:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T19:05:00Z",
+              "endTime": "2026-08-17T19:13:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T19:13:00Z",
+              "endTime": "2026-08-17T19:16:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T19:16:00Z",
+              "endTime": "2026-08-17T19:47:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T19:47:00Z",
+              "endTime": "2026-08-17T19:49:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T19:49:00Z",
+              "endTime": "2026-08-17T20:03:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T20:03:00Z",
+              "endTime": "2026-08-17T20:04:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T20:04:00Z",
+              "endTime": "2026-08-17T20:27:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T20:27:00Z",
+              "endTime": "2026-08-17T20:28:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T20:28:00Z",
+              "endTime": "2026-08-17T20:36:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T20:36:00Z",
+              "endTime": "2026-08-17T20:37:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T20:37:00Z",
+              "endTime": "2026-08-17T20:57:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T20:57:00Z",
+              "endTime": "2026-08-17T21:31:00Z",
+              "stage": "REM"
+            },
+            {
+              "startTime": "2026-08-17T21:31:00Z",
+              "endTime": "2026-08-17T21:49:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T21:49:00Z",
+              "endTime": "2026-08-17T21:50:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T21:50:00Z",
+              "endTime": "2026-08-17T22:05:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T22:05:00Z",
+              "endTime": "2026-08-17T22:06:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T22:06:00Z",
+              "endTime": "2026-08-17T22:12:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T22:12:00Z",
+              "endTime": "2026-08-17T22:13:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T22:13:00Z",
+              "endTime": "2026-08-17T22:17:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T22:17:00Z",
+              "endTime": "2026-08-17T22:18:00Z",
+              "stage": "AWAKE"
+            },
+            {
+              "startTime": "2026-08-17T22:18:00Z",
+              "endTime": "2026-08-17T22:25:00Z",
+              "stage": "LIGHT"
+            },
+            {
+              "startTime": "2026-08-17T22:25:00Z",
+              "endTime": "2026-08-17T22:27:00Z",
+              "stage": "AWAKE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "dataType": "steps",
+  "retrievedAt": "2026-08-19T01:08:53.326921+09:00",
+  "sdkCall": "aggregateData(...requestBuilder.setLocalTimeFilterWithGroup(LocalTimeFilter, LocalTimeGroup.of(DAILY, 1)))",
+  "requestedRange": {
+    "startLocalDateTime": "2026-07-21T00:00:00",
+    "endLocalDateTime": "2026-08-20T00:00:00"
+  },
+  "count": 29,
+  "records": [
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-20T15:00:00Z",
+      "endTime": "2026-07-21T15:00:00Z",
+      "startLocalDateTime": "2026-07-21T00:00:00",
+      "endLocalDateTime": "2026-07-22T00:00:00",
+      "value": 1205
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-21T15:00:00Z",
+      "endTime": "2026-07-22T15:00:00Z",
+      "startLocalDateTime": "2026-07-22T00:00:00",
+      "endLocalDateTime": "2026-07-23T00:00:00",
+      "value": 6355
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-22T15:00:00Z",
+      "endTime": "2026-07-23T15:00:00Z",
+      "startLocalDateTime": "2026-07-23T00:00:00",
+      "endLocalDateTime": "2026-07-24T00:00:00",
+      "value": 246
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-23T15:00:00Z",
+      "endTime": "2026-07-24T15:00:00Z",
+      "startLocalDateTime": "2026-07-24T00:00:00",
+      "endLocalDateTime": "2026-07-25T00:00:00",
+      "value": 8822
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-24T15:00:00Z",
+      "endTime": "2026-07-25T15:00:00Z",
+      "startLocalDateTime": "2026-07-25T00:00:00",
+      "endLocalDateTime": "2026-07-26T00:00:00",
+      "value": 878
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-25T15:00:00Z",
+      "endTime": "2026-07-26T15:00:00Z",
+      "startLocalDateTime": "2026-07-26T00:00:00",
+      "endLocalDateTime": "2026-07-27T00:00:00",
+      "value": 4575
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-26T15:00:00Z",
+      "endTime": "2026-07-27T15:00:00Z",
+      "startLocalDateTime": "2026-07-27T00:00:00",
+      "endLocalDateTime": "2026-07-28T00:00:00",
+      "value": 5513
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-27T15:00:00Z",
+      "endTime": "2026-07-28T15:00:00Z",
+      "startLocalDateTime": "2026-07-28T00:00:00",
+      "endLocalDateTime": "2026-07-29T00:00:00",
+      "value": 1205
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-28T15:00:00Z",
+      "endTime": "2026-07-29T15:00:00Z",
+      "startLocalDateTime": "2026-07-29T00:00:00",
+      "endLocalDateTime": "2026-07-30T00:00:00",
+      "value": 6996
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-29T15:00:00Z",
+      "endTime": "2026-07-30T15:00:00Z",
+      "startLocalDateTime": "2026-07-30T00:00:00",
+      "endLocalDateTime": "2026-07-31T00:00:00",
+      "value": 4264
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-30T15:00:00Z",
+      "endTime": "2026-07-31T15:00:00Z",
+      "startLocalDateTime": "2026-07-31T00:00:00",
+      "endLocalDateTime": "2026-08-01T00:00:00",
+      "value": 9548
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-07-31T15:00:00Z",
+      "endTime": "2026-08-01T15:00:00Z",
+      "startLocalDateTime": "2026-08-01T00:00:00",
+      "endLocalDateTime": "2026-08-02T00:00:00",
+      "value": 13
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-01T15:00:00Z",
+      "endTime": "2026-08-02T15:00:00Z",
+      "startLocalDateTime": "2026-08-02T00:00:00",
+      "endLocalDateTime": "2026-08-03T00:00:00",
+      "value": 1045
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-02T15:00:00Z",
+      "endTime": "2026-08-03T15:00:00Z",
+      "startLocalDateTime": "2026-08-03T00:00:00",
+      "endLocalDateTime": "2026-08-04T00:00:00",
+      "value": 5791
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-03T15:00:00Z",
+      "endTime": "2026-08-04T15:00:00Z",
+      "startLocalDateTime": "2026-08-04T00:00:00",
+      "endLocalDateTime": "2026-08-05T00:00:00",
+      "value": 7087
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-04T15:00:00Z",
+      "endTime": "2026-08-05T15:00:00Z",
+      "startLocalDateTime": "2026-08-05T00:00:00",
+      "endLocalDateTime": "2026-08-06T00:00:00",
+      "value": 6273
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-05T15:00:00Z",
+      "endTime": "2026-08-06T15:00:00Z",
+      "startLocalDateTime": "2026-08-06T00:00:00",
+      "endLocalDateTime": "2026-08-07T00:00:00",
+      "value": 239
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-06T15:00:00Z",
+      "endTime": "2026-08-07T15:00:00Z",
+      "startLocalDateTime": "2026-08-07T00:00:00",
+      "endLocalDateTime": "2026-08-08T00:00:00",
+      "value": 5982
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-07T15:00:00Z",
+      "endTime": "2026-08-08T15:00:00Z",
+      "startLocalDateTime": "2026-08-08T00:00:00",
+      "endLocalDateTime": "2026-08-09T00:00:00",
+      "value": 6472
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-08T15:00:00Z",
+      "endTime": "2026-08-09T15:00:00Z",
+      "startLocalDateTime": "2026-08-09T00:00:00",
+      "endLocalDateTime": "2026-08-10T00:00:00",
+      "value": 190
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-09T15:00:00Z",
+      "endTime": "2026-08-10T15:00:00Z",
+      "startLocalDateTime": "2026-08-10T00:00:00",
+      "endLocalDateTime": "2026-08-11T00:00:00",
+      "value": 7056
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-10T15:00:00Z",
+      "endTime": "2026-08-11T15:00:00Z",
+      "startLocalDateTime": "2026-08-11T00:00:00",
+      "endLocalDateTime": "2026-08-12T00:00:00",
+      "value": 7184
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-11T15:00:00Z",
+      "endTime": "2026-08-12T15:00:00Z",
+      "startLocalDateTime": "2026-08-12T00:00:00",
+      "endLocalDateTime": "2026-08-13T00:00:00",
+      "value": 5385
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-12T15:00:00Z",
+      "endTime": "2026-08-13T15:00:00Z",
+      "startLocalDateTime": "2026-08-13T00:00:00",
+      "endLocalDateTime": "2026-08-14T00:00:00",
+      "value": 4884
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-13T15:00:00Z",
+      "endTime": "2026-08-14T15:00:00Z",
+      "startLocalDateTime": "2026-08-14T00:00:00",
+      "endLocalDateTime": "2026-08-15T00:00:00",
+      "value": 937
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-14T15:00:00Z",
+      "endTime": "2026-08-15T15:00:00Z",
+      "startLocalDateTime": "2026-08-15T00:00:00",
+      "endLocalDateTime": "2026-08-16T00:00:00",
+      "value": 156
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-15T15:00:00Z",
+      "endTime": "2026-08-16T15:00:00Z",
+      "startLocalDateTime": "2026-08-16T00:00:00",
+      "endLocalDateTime": "2026-08-17T00:00:00",
+      "value": 11353
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-16T15:00:00Z",
+      "endTime": "2026-08-17T15:00:00Z",
+      "startLocalDateTime": "2026-08-17T00:00:00",
+      "endLocalDateTime": "2026-08-18T00:00:00",
+      "value": 4874
+    },
+    {
+      "operation": "TOTAL",
+      "startTime": "2026-08-17T15:00:00Z",
+      "endTime": "2026-08-18T15:00:00Z",
+      "startLocalDateTime": "2026-08-18T00:00:00",
+      "endLocalDateTime": "2026-08-19T00:00:00",
+      "value": 9098
+    }
+  ]
+}

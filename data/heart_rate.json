@@ -1,0 +1,11 @@
+{
+  "dataType": "heart_rate",
+  "retrievedAt": "2026-08-19T01:08:54.933358+09:00",
+  "sdkCall": "readData(DataTypes.HeartRateType.readDataRequestBuilder.setLocalTimeFilter(...).setOrdering(Ordering.ASC))",
+  "requestedRange": {
+    "startLocalDateTime": "2026-07-21T00:00:00",
+    "endLocalDateTime": "2026-08-20T00:00:00"
+  },
+  "count": 0,
+  "records": []
+}

@@ -1,0 +1,58 @@
+{
+  "requestedDataTypes": [
+    "steps",
+    "sleep",
+    "heart_rate",
+    "exercise",
+    "blood_pressure"
+  ],
+  "requestedDays": 30,
+  "requestedRange": {
+    "endLocalDateTime": "2026-08-20T00:00:00",
+    "startLocalDateTime": "2026-07-21T00:00:00"
+  },
+  "results": [
+    {
+      "count": 29,
+      "dataType": "steps",
+      "error": null,
+      "file": "steps.json",
+      "publicPath": "Download/SHealthPoC/steps.json",
+      "skippedReason": null
+    },
+    {
+      "count": 19,
+      "dataType": "sleep",
+      "error": null,
+      "file": "sleep.json",
+      "publicPath": "Download/SHealthPoC/sleep.json",
+      "skippedReason": null
+    },
+    {
+      "count": 0,
+      "dataType": "heart_rate",
+      "error": null,
+      "file": "heart_rate.json",
+      "publicPath": "Download/SHealthPoC/heart_rate.json",
+      "skippedReason": null
+    },
+    {
+      "count": 11,
+      "dataType": "exercise",
+      "error": null,
+      "file": "exercise.json",
+      "publicPath": "Download/SHealthPoC/exercise.json",
+      "skippedReason": null
+    },
+    {
+      "count": 0,
+      "dataType": "blood_pressure",
+      "error": null,
+      "file": "blood_pressure.json",
+      "publicPath": "Download/SHealthPoC/blood_pressure.json",
+      "skippedReason": null
+    }
+  ],
+  "retrievedAt": "2026-08-19T01:08:55.831211+09:00",
+  "sdkVersion": "samsung-health-data-api-1.1.0"
+}
